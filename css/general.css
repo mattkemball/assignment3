@@ -289,6 +289,8 @@ a {
 .figure {
     border: black;
     padding: 1rem;
+    background-color: black;
+    margin: 1rem;
 }
 
 blockquote p:before {
