@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: maroon;
+    overflow:hidden;
+}
+
+.logo {
+    width: 5rem;
+    height: auto;
+    float: left;
+    margin: 1rem 5%;
+}
+
+.twitter {
+    width: 4rem;
+    height: auto;
+    float:right;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+    background-color: maroon
+}
+
+.facebook {
+    width: 4rem;
+    height: auto;
+    float:right;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+    background-color: maroon;
+}
+
+.nav-top {
+    width: 50%;
+    float: right;
+    margin: 3rem 0 0;
+}
+
+.nav-top ul {
+    margin: 1rem 10%;
+    padding: 0;
+    text-align: right;
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 1rem;
+    display: inline;
+    font-family: futura, helvetica, sans-serif;
+}
+    
+.billboard {
+    background-image: url(../images/shoes.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30rem;
+    overflow: hidden;
+}
+
+.billboard2 {
+    background-image: url(../images/products.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 35rem;
+    overflow: hidden;
+}
+
+.billboard3 {
+    background-image: url(../images/ourteam.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 35rem;
+    overflow: hidden;
+}
+
+.billboard h1 {
+    background-color: rgba(100, 100, 100, .9);
+    margin: 6rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: folio, sans-serif;
+    font-weight: bold;
+}
+
+.billboard2 h1 {
+    background-color: rgba(100, 100, 100, .9);
+    margin: 6rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: folio, sans-serif;
+    font-weight: bold;
+}
+
+.billboard3 h1 {
+    background-color: rgba(100, 100, 100, .9);
+    margin: 6rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: folio, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin: 2rem 2rem;
+    padding: 0;
+    font-family: Open San, sans-serif;
+    font-size: 1.5rem
+}
+
+.bucket {
+    background-image: url(../images/products.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30rem;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.bucket h2 {
+    background-color: rgba(100, 100, 100, .9);
+    margin: 6rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: folio, sans-serif;
+    font-weight: bold;
+}
+
+.bucket2 {
+    background-image: url(../images/ourteam.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30rem;
+    overflow: hidden;
+    margin: 1rem;
+}
+    
+.bucket2 h2 {
+    background-color: rgba(100, 100, 100, .9);
+    margin: 6rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: folio, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color: maroon;
+    padding: 2rem;
+    font-family: folio, sans-serif;
+    font-size: 2rem;
+}
+
+footer before {
+    content:"\00a9 me";
+}
+
+.box1 {
+    margin: 6.5rem 2%;
+    padding: 0rem;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+    position:absolute;
+    left: 13rem;
+    top: 31rem;
+}
+
+.box2 {
+    margin: 7.5rem 2%;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+    position:absolute;
+    left: 13rem;
+    top:44rem;
+
+
+}
+
+.box3 {
+    margin: 8.5rem 2%;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+    position:absolute;
+    top: 57rem;
+    left: 13rem;
+
+}
+
+.box4 {
+    margin: 2rem -6%;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+}
+
+.box5 {
+    margin: 2rem -6%;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+}
+
+.box6 {
+    margin: 2rem -6%;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+    background-color: maroon;
+    border: .25rem solid maroon;
+}
+
+.boxcaption {
+    background-color: black;
+    padding: .5rem 1rem;
+    text-align: center
+    
+}
+
+figcaption {
+    background-color: black;
+    font-family: futura, sans-serif;
+    color: white;
+    padding: 0rem 1rem 1rem; 
+    margin: 0rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.figcaptionabout {
+    background-color: black;
+    font-family: folio, sans-serif;
+    color: white;
+    padding: 0rem; 
+    margin: 1;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.figure {
+    border: black;
+    padding: 1rem;
+}
+
+blockquote p:before {
+    content:"“";
+    font-size:4rem;
+    color:maroon;
+    float:left;
+    margin: -3rem -1rem;
+    padding: 1rem
+}
+
+blockquote p:after {
+    content:"”";
+    font-size:4rem;
+    color:maroon;
+    position:absolute;
+    margin:.3rem 0 0;
+}
+
+blockquote span{
+    font-weight:bold;
+    float:right;
+    margin:1.5rem 0;
+    font-size: .75rem
+}
